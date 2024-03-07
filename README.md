@@ -3,7 +3,7 @@ This is Backend for commodity digital QC
 
 ## How to setup
 
-1. clone the folder in your workspace by `git clone https://github.com/voltShavika/commodity_backend`
+1. clone the folder in your workspace by `git clone https://github.com/voltVishalKumar/commodity_backend`
 2. Go into folder `cd commodity_backend`
 3. Install important packages `npm install`
 
@@ -40,8 +40,8 @@ You should get a response like this
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik............truncated",
     "data": {
         "id": 1,
-        "name": "Shavika Mittal",
-        "email": "shavika619@gmail.com",
+        "name": "VishalKumar  ",
+        "email": "VishalKumar @gmail.com",
         "password": "Test@123",
         "createdAt": "2024-03-05T11:00:08.000Z",
         "updatedAt": "2024-03-05T11:00:08.000Z"

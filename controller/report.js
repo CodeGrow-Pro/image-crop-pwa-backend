@@ -107,10 +107,10 @@ const generateReport = async (req, res) => {
                 })
             }
             const { encoding, path, size } = req.file;
-            const {success, pdf_path, message} = await generatePdf({result: "This is awesome result", path: path})
+            const {success, pdf_path, message} = await generatePdf({result: "This is your Cropped image.", path: path})
             if(success){
                 const report = {
-                    result: "This is awesome result",
+                    result: "This is your Cropped image.",
                     image_path: path,
                     pdf_path: pdf_path,
                     cropId: cropId,

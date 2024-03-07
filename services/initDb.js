@@ -5,39 +5,39 @@ const Crops = db.crops
 module.exports = async () => {
     const dummyUsers = [
         {
-            name: "Shavika Mittal",
-            email: "shavika619@gmail.com",
-            password: "Test@123"
+            name: "VishalKumar  ",
+            email: "VishalKumar@gmail.com",
+            password: "vishal@123"
         },
         {
-            name: "Demo User",
-            email: "demo@gmail.com",
-            password: "Test@123"
+            name: "aman",
+            email: "aman@gmail.com",
+            password: "aman@123"
         }        
     ]
 
     const dummyCrops = [
         {
-            name: "Wheat"
+            name: "Apple	"
         },
         {
-            name: "Rice"
+            name: "Grapefruit"
         },
         {
-            name: "Barley"
+            name: "Kiwi"
         },
         {
-            name: "Jowar"
+            name: "Muskmelon"
         },
         {
-            name: "Millets"
+            name: "Olive"
         },
         {
-            name: "Corn"
+            name: "Raspberries"
         }
     ]
 
     await Users.bulkCreate(dummyUsers);
     await Crops.bulkCreate(dummyCrops);
-    console.log("Dummy Repords inserted");
+    console.log("all Dummy Data Created successfully.");
 }
